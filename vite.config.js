@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+    root: 'src',
     server: {
         host: '0.0.0.0', // เปิดให้ Docker Container กระจายพอร์ตออกสู่ภายนอก
         port: 5173,      // กำหนดพอร์ตหลัก
